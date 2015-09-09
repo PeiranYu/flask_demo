@@ -58,7 +58,7 @@ def index():
             return render_template('plot.html')
         #return redirect('/main_lulu')
 
-if __name__ == "__main__":
-    app.run(debug=True)
-#if __name__ == '__main__':
-#  app.run(port=33507)
+#if __name__ == "__main__":
+#    app.run(debug=True)
+if __name__ == '__main__':
+  app.run(port=33507)
