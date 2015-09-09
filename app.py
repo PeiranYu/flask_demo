@@ -39,7 +39,7 @@ def index():
         #f.write('%s\n\n'%(request.form.getlist['answer'])) #this was the 'name' on layout.html!
             color=["blue","yellow","red"]
         #output_file("a.html")
-            p=figure(x_axis_type="datetime")
+            p=figure(x_axis_type="datetime",x_axis_label='date',title="Data from Quandle WIKI set")
             nd={}
             nd['Closing']="Closing price"
             nd['Adjusted']="Adjusted closing price"
